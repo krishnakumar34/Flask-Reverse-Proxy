@@ -1,7 +1,7 @@
 from flask import Flask,request,redirect,Response
 import requests
 app = Flask(__name__)
-SITE_NAME = "http://MAIN_SITE_NAME"
+SITE_NAME = "http://reverse-proxy.adaptable.app/"
 
 @app.route("/",methods=['GET','POST'])
 def index():
